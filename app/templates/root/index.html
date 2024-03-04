@@ -60,7 +60,7 @@
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#sponsors">Sponsors</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Get your Tickets</a></li>
+          <li class="buy-tickets"><a href="{{ url_for('register_page') }}">Get your Tickets</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -75,7 +75,7 @@
       <p class="mb-4 pb-0">8th March, Downtown Conference Center, Lagos</p>
       <a href="https://www.youtube.com/watch?v=cE2pe7wIiVk&t=2s" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">About The Event</a>
+      <a href="{{ url_for('register_page') }}" class="about-btn scrollto">About The Event</a>
     </div>
   </section>
 

@@ -16,7 +16,7 @@
                     <h2 id="heading">Get Registered For The Cohort 12 Graduation Ceremory</h2>
                     <p>Fill all form field to go to next step</p>
 
-                    <form id="msform" >
+                    <form id="msform" method="post" action="{{ url_for('register_page') }}">
                         <!-- progressbar -->
                         <ul id="progressbar">
                             <li class="active" id="account"><strong>Account</strong></li>
@@ -144,6 +144,9 @@
                             </div>
                         </fieldset>
                     </form>
+
+
+
 
 
                 </div>
